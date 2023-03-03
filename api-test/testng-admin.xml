@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Setel Regression Suite" configfailurepolicy="continue" verbose="1" parallel="methods" thread-count="2">
+    <test name="Setel Admin test on chrome">
+        <classes>
+            <class name="my.api.tests.FolderTests"/>
+            <class name="my.api.tests.ListTests"/>
+            <class name="my.api.tests.SpaceTests"/>
+        </classes>
+    </test>
+</suite>
